@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Oxanium;
+  src: url(./assets/fonts/Oxanium-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Orbitron;
+  src: url(./assets/fonts/Orbitron-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Fira;
+  src: url(./assets/fonts/FiraCode-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Teko;
+  src: url(./assets/fonts/Teko-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Tektur;
+  src: url(./assets/fonts/Tektur.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(./assets/fonts/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+  font-family: UbuntuMono;
+  src: url(./assets/fonts/UbuntuMono-Regular.ttf);
+}
+
+@font-face {
+  font-family: BrunoAceSC;
+  src: url(./assets/fonts/BrunoAceSC-Regular.ttf);
+}
+
+@font-face {
+  font-family: BrunoAce;
+  src: url(./assets/fonts/BrunoAce-Regular.ttf);
+}
+
+@font-face {
+  font-family: Exo2;
+  src: url(./assets/fonts/Exo2-VariableFont_wght.ttf);
+}
