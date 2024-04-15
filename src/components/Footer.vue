@@ -1,30 +1,62 @@
 <template>
-  <footer class="bg-red-950 pt-5 px-7">
-    <div class="max-w-lg mb-3 mx-auto md:flex md:flex-wrap md:items-center md:justify-between">
-      <img src="../assets/img/RPD.png" class="w-1/3 mx-auto pb-3 md:mx-0 md:w-1/4" />
-      <div class="text-white text-center text-sm font-[Oxanium]">
-        <ul class="font-semibold flex flex-wrap justify-center gap-4 text-gray-300 md:gap-10">
-          <li><a href="" class="hover:text-white">About</a></li>
-          <li><a href="" class="hover:text-white">Experience</a></li>
-          <li><a href="" class="hover:text-white">Project</a></li>
-          <li><a href="" class="hover:text-white">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="max-w-md flex justify-evenly py-5 mx-auto">
-      <a href="">
-        <img src="../assets/img/github.svg" class="w-[30px] md:w-8">
+  <footer class="bg-red-950 mt-auto w-full max-w-full">
+    <!-- Grid -->
+    <div class="max-w-[1080px] px-8 w-full justify-between mx-auto flex flex-wrap items-center text-center">
+      <a class="w-1/4" href="#">
+        <img src="../assets/img/RPD.png" class="">
       </a>
-      <a href="">
-        <img src="../assets/img/linkedin.svg" class="w-[30px] md:w-8">
-      </a>
-      <a href="">
-        <img src="../assets/img/instagram.svg" class="w-[30px] md:w-8">
-      </a>
-    </div>
+      <!-- End Col -->
 
-    <h1 class="text-center text-[11px] leading-relaxed pb-3 text-white font-[Orbitron] font-semibold tracking-widest">
-      Made with ❤️ by <br><strong>RANU PUTRA DEWANTARA</strong>
-    </h1>
+      <ul class="w-fit gap-2 mx-auto flex flex-wrap justify-between text-center font-[Oxanium] font-normal py-2 md:gap-4 lg:gap6">
+        <li class="">
+          <a class="text-[13px] text-neutral-400 hover:text-white hover:underline lg:text-[14.5px]" href="#">
+            Home
+          </a>
+        </li>
+        <li class="">
+          <a class="text-[13px] text-neutral-400 hover:text-white hover:underline lg:text-[14.5px]" href="#">
+            About
+          </a>
+        </li>
+        <li class="">
+          <a class="text-[13px] text-neutral-400 hover:text-white hover:underline lg:text-[14.5px]" href="#">
+            Experience
+          </a>
+        </li>
+        <li class="">
+          <a class="text-[13px] text-neutral-400 hover:text-white hover:underline lg:text-[14.5px]" href="#">
+            Project
+          </a>
+        </li>
+        <li class="">
+          <a class="text-[13px] text-neutral-400 hover:text-white hover:underline lg:text-[14.5px]" href="#">
+            Contact
+          </a>
+        </li>
+      </ul>
+      <!-- End Col -->
+
+      <!-- Social Brands -->
+      <div class="flex w-full gap-6 justify-between items-center md:w-fit">
+        <a class="flex items-center"
+          href="https://github.com/RanuDewantara">
+          <img src="../assets/img/github.svg" class="h-6">
+        </a>
+        <a class="flex items-center"
+          href="https://gitlab.com/users/RanuDewantara/projects">
+          <img src="../assets/img/gitlab.svg" class="h-6">
+        </a>
+        <a class="flex items-center"
+          href="https://www.linkedin.com/in/ranu-putra-dewantara/">
+          <img src="../assets/img/linkedin.svg" class="h-6">
+        </a>
+        <a class="flex items-center"
+          href="#">
+          <img src="../assets/img/instagram.svg" class="h-6">
+        </a>
+      </div>
+      <!-- End Social Brands -->
+    </div>
+    <!-- End Grid -->
   </footer>
 </template>

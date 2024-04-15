@@ -10,8 +10,8 @@ import Footer from './components/Footer.vue';
 </script>
 
 <template>
+  <Navbar />
   <div class="divide-y-2 divide-white">
-    <Navbar />
     <Landing />
     <About />
     <Experience />

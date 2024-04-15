@@ -27,16 +27,6 @@
             dolor.
           </p>
         </div>
-        <!-- <div class="text-center bg-white w-full mx-auto font-[Oxanium] rounded-lg overflow-hidden scale-90 hover:scale-100 duration-300">
-          <img src="../assets/img/Smarthome.png" class="h-fit">
-          <h1 class="p-3 text-xl font-semibold">Smarthome Website</h1>
-          <p class="px-5 pb-3 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima sapiente corrupti nemo voluptate a sunt esse est ratione similique dolor.</p>
-        </div>
-        <div class="text-center bg-white w-full mx-auto font-[Oxanium] rounded-lg overflow-hidden scale-90 hover:scale-100 duration-300">
-          <img src="../assets/img/DocsWeb.png" class="h-fit">
-          <h1 class="p-3 text-xl font-semibold">Documentation Website</h1>
-          <p class="px-5 pb-3 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima sapiente corrupti nemo voluptate a sunt esse est ratione similique dolor.</p>
-        </div> -->
       </div>
     </div>
   </section>
