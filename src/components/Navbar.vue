@@ -1,11 +1,10 @@
 <template>
-  <header
-    class="fixed flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-red-800 text-sm">
-    <nav class="relative max-w-screen-lg w-full py-2 mx-auto sm:flex items-center sm:justify-between lg:px-8"
+  <header class="fixed flex flex-wrap z-50 w-full bg-red-800 text-sm">
+    <nav class="max-w-screen-lg w-full py-2 mx-auto sm:flex items-center sm:justify-between lg:px-8"
       aria-label="Global">
       <div class="flex items-center justify-between">
         <a class="flex-none text-xl font-semibold" href="#" aria-label="Brand">
-          <img src="../assets/img/RPD.png" class="w-24 px-3 mx-auto">
+          <img src="../assets/img/RPD.png" class="w-24 px-3 mx-auto ">
         </a>
         <div class="sm:hidden px-3">
           <button type="button"
@@ -25,13 +24,13 @@
         </div>
       </div>
       <div id="navbar-collapse-with-animation"
-        class="font-[Oxanium] font-semibold text-white uppercase max-w-screen-md hs-collapse hidden overflow-hidden transition-all duration-300 sm:block md:px-2">
-        <div class="flex flex-col gap-x-0 items-center text-center justify-between md:flex-row md:gap-y-0 md:mt-0">
-          <a class="w-full py-3 hover:bg-white hover:text-red-700 md:w-[100px]" href="#">Home</a>
-          <a class="w-full py-3 hover:bg-white hover:text-red-700 md:w-[100px]" href="#">About</a>
-          <a class="w-full py-3 hover:bg-white hover:text-red-700 md:w-[100px]" href="#">Experience</a>
-          <a class="w-full py-3 hover:bg-white hover:text-red-700 md:w-[100px]" href="#">Project</a>
-          <a class="w-full py-3 hover:bg-white hover:text-red-700 md:w-[100px]" href="#">Contact</a>
+        class="font-[Oxanium] font-semibold text-white uppercase max-w-screen-md hs-collapse hidden overflow-hidden transition-all duration-300 md:block">
+        <div class="flex flex-col mt-2 items-center text-center justify-between md:flex-row md:mt-0 md:gap-2">
+          <a class="w-full py-3 hover:bg-white hover:text-red-700 md:w-24" href="#">Home</a>
+          <a class="w-full py-3 hover:bg-white hover:text-red-700 md:w-24" href="#">About</a>
+          <a class="w-full py-3 hover:bg-white hover:text-red-700 md:w-24" href="#">Experience</a>
+          <a class="w-full py-3 hover:bg-white hover:text-red-700 md:w-24" href="#">Project</a>
+          <a class="w-full py-3 hover:bg-white hover:text-red-700 md:w-24" href="#">Contact</a>
         </div>
       </div>
     </nav>
